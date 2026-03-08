@@ -1,72 +1,20 @@
-Saif Waleed – Portfolio Website
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-This repository contains the source code for my personal portfolio website.
-The website showcases my projects, technical skills, and journey as a Full Stack Developer.
+# Run and deploy your AI Studio app
 
-🚀 About The Project
+This contains everything you need to run your app locally.
 
-This portfolio was created to present my work, highlight my technical abilities, and provide a way for others to learn more about me and my projects.
+View your app in AI Studio: https://ai.studio/apps/3cd4bbc5-0129-46fc-9934-ca8ee106af97
 
-It includes sections such as:
+## Run Locally
 
-Introduction
+**Prerequisites:**  Node.js
 
-About Me
 
-What I Do
-
-Tech Stack
-
-Projects
-
-Contact
-
-🛠 Built With
-
-HTML
-
-CSS
-
-JavaScript
-
-React
-
-TypeScript
-
-Vite
-
-✨ Features
-
-Modern responsive design
-
-Interactive UI
-
-Smooth navigation
-
-Project showcase
-
-Clean and minimal layout
-
-📂 Project Structure
-portfolio-website
-│
-├── public
-├── src
-│   ├── components
-│   ├── assets
-│   ├── pages
-│   └── styles
-│
-├── index.html
-├── package.json
-└── README.md
-🌐 Live Demo
-
-Coming soon...
-
-👨‍💻 Author
-
-Saif Waleed
-Full Stack Developer
-
-GitHub: https://github.com/S4IFO
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
